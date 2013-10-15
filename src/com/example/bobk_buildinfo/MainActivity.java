@@ -23,6 +23,9 @@ public class MainActivity extends Activity {
             TextView keyView = new TextView( getApplicationContext() );
             keyView.setText( key );
             tableRow.addView( keyView );
+            TextView spaceView = new TextView( getApplicationContext() );
+            spaceView.setText( " " );
+            tableRow.addView( spaceView );
             TextView valueView = new TextView( getApplicationContext() );
             valueView.setText( value );
             tableRow.addView( valueView );
